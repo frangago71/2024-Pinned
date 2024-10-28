@@ -66,6 +66,10 @@ module.exports = {
         type: Sequelize.DATE,
         defaultValue: new Date()
       },
+      pinnedAt: {
+        allowNull: true,
+        type: Sequelize.DATE
+      },
       userId: {
         allowNull: false,
         type: Sequelize.INTEGER,
